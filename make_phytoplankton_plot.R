@@ -1,8 +1,10 @@
-
+# Import library
 library(ggplot2)
 
+# Load data
 data <- read.csv("data/phytoplankton_data.csv")
 
+# Make plot
 ggplot(data, aes(x=month, y=phytoplankton)) + 
   geom_line(colour = "red", size=2) + 
   labs(title="Phytoplankton concentration in Nova Scotia",
