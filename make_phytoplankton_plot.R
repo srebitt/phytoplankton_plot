@@ -2,7 +2,7 @@
 library(ggplot2)
 
 # Load data
-data <- read.csv("data/phytoplankton_data.csv")
+data <- read.csv("~/Desktop/phytoplankton_plot/data/phytoplankton_data.csv", header =TRUE)
 
 # Make plot
 ggplot(data, aes(x=month, y=phytoplankton)) + 
