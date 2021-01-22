@@ -11,3 +11,4 @@ ggplot(data, aes(x=month, y=phytoplankton)) +
        subtitle="units: milimoles/m3",
        caption="Source: NOAA, ERDDAP") +
   theme(text = element_text(size=15))
+
